@@ -1,0 +1,155 @@
+
+
+#top{
+    color:black;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgb(247,247,247);
+    margin: 0;
+    border-width: 30px;
+    padding: 20px;
+}
+
+#logoline{
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 40px 1fr 90px 50px 50px;
+}
+
+#be_host {
+    margin: 20px;
+    width: 100px;
+    height: 30px;
+    margin-left: 0;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgb(247,247,247);
+    text-align: center;
+    line-height: 30px;
+    border-radius: 25px;
+}
+
+#be_host a{
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#globe{
+    background-color: rgb(247,247,247);
+    padding: 5px;
+    width: 40px;
+    height: 30px;
+    margin: 20px;
+    border: none;
+    border-radius: 25px;    
+}
+#log_in{
+    padding: 5px;
+    width: 40px;
+    height: 30px;
+    margin: 20px;
+    border: 5px rgb(247,247,247);
+    background-color: white;
+    
+    border-radius: 25px;   
+}
+
+#order_line{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: 60px 60px 100px;
+}
+
+#order_line button{
+    background-color: white;
+    font-size: 18px;
+    border: none;
+    text-align: center;
+}
+
+.nearby_destination{
+    height: 300px;
+    margin: 20px;
+    background-image: url("nearby_destination.jpg");
+    border-radius: 25px;
+}
+
+#nearby{
+    line-height: 10px;
+    margin: 30px;
+}
+
+.broadway{
+    background-color: black;
+    height: 300px;
+    color: white;
+    font-size:15px;
+}
+
+.broadway_top{
+    margin: 30px;
+    margin-top:60px;
+    display: grid;
+    grid-template-columns: 430px 1fr 150px;
+}
+
+#looking_around{
+    cursor:pointer;
+    border: white solid 1px;
+    border-radius: 10px;
+    height: 20px;
+    width: 100px;  
+    padding: 10px;
+    margin-top:30px; 
+}
+
+.broadway_bottom{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+}
+
+.bottom_div{
+    margin: 25px;
+    border-bottom: 1px solid rgb(221,221,221);
+    font-size: 13px;
+    font-weight: normal;
+
+}
+
+.bottom_link{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 15px;
+    margin-bottom: 15px;    
+}
+
+
+.footer{
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+}
+
+.footer p{
+    text-align: center;
+}
+
+@media(max-width:744px){
+    div{
+        
+    }
+
+    div{
+
+    }
+}
+
+@media(max-width:1128px){
+
+}
