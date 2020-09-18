@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ARP(All Round Player) 클랜에 오신 것을 환영합니다.</title>
+        <link rel="stylesheet" type="text/css" href="arpClan.css"/>
+        Authorization: Bearer $api-key
+    </head>
+
+    <body>
+        <div onclick="location.href='arpMain.html'" class="topLine">
+            <div>
+                <img id="topLine_img" src="img/arp마크.jpg">
+            </div>
+                
+            <div>
+                <h1>All Round Player[ARP]</h1>
+            </div>
+        </div>
+
+        <div class="mainScreen" >
+            <div class="mainDiv"id="mainScreenTop">
+                <div></div>
+                <div></div>
+                <div>
+                    <h2 onclick="location.href='arp_clan.html'"> 클랜홈페이지 바로가기 &#8594</h2>
+                </div>
+            </div>
+
+            <div class="mainDiv" id="mainClanIntro">
+                <div></div>
+                <div></div>
+                <div>
+                    <h2 onclick="location.href='arp_clan_clanIntro.html'"> 클랜소개 바로가기 &#8594</h2>
+                </div>
+            </div>
+
+            <div class="mainDiv"id="mainClanApply">
+                <div></div>
+                <div></div>
+                <div>
+                    <h2 onclick="location.href='arp_clan_clanApply.html'"> 클랜 지원하기 &#8594</h2>
+                </div>
+            </div>
+
+            <div class="mainDiv"id="mainClanMembers">
+                <div></div>
+                <div>
+                    <img src="img/clanMembers.png">
+                </div>
+                <div>
+                    <h2 onclick="location.href='arp_clan_clanMembers.html'"> 클랜원 전적보기 &#8594</h2>
+                </div>
+            </div>
+
+            <div class="mainDiv" id="mainClanBoards">
+                <div></div>
+                <div><h2 onclick=""> 클랜 게시판 바로가기 &#8594</h2></div>
+                <div></div>
+            </div>
+
+            <div class="mainDiv" id="battlegroundAPI">
+                
+            </div>
+        </div>
+
+        <div class="applyDiv">
+
+        </div>
+        
+    </body>
+
+    <script type="text/javascript" src='arpMain.js'></script>
+    <script type="text/javascript" src='members.js'></script>
+    <!-- <script>
+        fetch('https://www.mof.go.kr/statPortal/openapi/service/rest/getList.do?key=a9eb8592260f4766acaa08c18cc6ab8b&form_id=6121&style_num=1&start_dt=2015&end_dt=2017')
+        .then((res) => res.json())
+        .then((data) => {
+            let tag = '';
+            console.log('data.status_code');
+            
+
+            //document.getElementById('apply_div').innerHTML = tag;
+            // if (data.status !== 200) alert('에러!')
+            // else {
+            //     for (let hub of data.arr) {
+            //     tag += '<p>' + hub.addr + '</p>';
+            //     }
+            //     document.getElementById('hub_list').innerHTML = tag;
+            // }
+        })
+    </script> -->
+</html>

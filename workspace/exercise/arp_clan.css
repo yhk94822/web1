@@ -1,0 +1,123 @@
+*{
+    font-family: "굴림", "Times New Roman", serif;
+    font-weight: normal;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+    margin-left: -20px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.topLine{
+    display:flex;
+    justify-content:center;
+    height: 120px;
+    background-color: white;
+    color: rgb(83,109,183);
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+#topLine_img{
+    width:auto;
+    height: auto;
+    max-height: 100px;
+    border-radius: 50px;
+    margin-right: 50px;
+}
+
+.menu_content{
+    display:flex;
+    flex-direction: row;
+    flex: 230px 1;
+}
+
+.menu_line{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height:100vh;
+    align-items: center;
+    border-right: 1px solid black;
+}
+
+.clan_intro{
+    visibility: hidden;
+    margin: 20px;
+    position: relative;
+}
+
+#memConditionButton{
+    border: none;
+}
+
+#memCondition{
+    visibility: hidden;
+    margin: 10px;
+}
+
+.clan_members{
+    visibility: hidden;
+    margin: 20px;
+    position: relative;
+}
+
+.apply{
+    visibility: hidden;
+    margin: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#img_apply{
+    width: auto;
+    height: auto;
+    max-height: 1000px;
+    margin-top: -750px;
+}
+
+#discordChannel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#apply_button{
+    font-size: 15px;
+    background-color: whitesmoke;
+    border: 2px solid black;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*------------------- Main Page---------------------- */
+.mainScreen{
+    display: flex;
+    flex-direction: column;
+}
+
+.mainDiv{
+    display: flex;
+    align-items: flex-end;
+    
+}
+

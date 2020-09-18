@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-weight=1.0">
+    <title>ARP(All Round Player) 클랜에 오신 것을 환영합니다.</title>
+    <link rel="stylesheet" type="text/css" href="arp_clan.css"/>
+    <script>
+        let clanMembers = ["ARP_Once", "ARP_Kana", "ARP_Crow", "ARP_GD", "ARP_TToBBi", "ARP_Sang", "ARP_Huni", "ARP_tuevub", "ARP_Gerrard", "ARP_Hops", "ARP_BBaekji", "ARP_Yeong", "ARP_Jingna"];
+        const showClanMembers = () =>{
+            let i=0;
+            while(i<clanMembers.length){
+                document.write('<li>'+clanMembers[i]+'<a href="https://dak.gg/profile/'+clanMembers[i]+'" target="_blank">[전적보기]</a></li>');
+                i=i+1;
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div onclick="location.href='arpMain.html'" class="topLine">
+        <div>
+            <img id="topLine_img" src="img/arp마크.jpg">
+        </div>
+            
+        <div>
+            <h1>All Round Player[ARP]</h1>
+        </div>
+    </div>
+    
+    <div class="menu_content">
+        <div class="menu_line">
+            <ul>
+                <li onclick="location.href='arp_clan_clanIntro.html'" onmouseover="weightUp(this)" onmouseout="weightDown(this)">클랜소개</li>
+                <li onclick="location.href='arp_clan_clanMembers.html'" onmouseover="weightUp(this)" onmouseout="weightDown(this)">클랜원</li>
+                <li onclick="location.href='arp_clan_clanApply.html'" onmouseover="weightUp(this)" onmouseout="weightDown(this)">가입신청</li>
+                <li onclick="window.open('https://discord.gg/eNM2eED')" onmouseover="weightUp(this)" onmouseout="weightDown(this)"><img src="img/discordIcon.png" width="25px" height="25px">디스코드 채널</li>
+            </ul>
+        </div>
+
+        <div>
+            <div class="clan_intro">
+                <p>안녕하세요, ARP 클랜입니다. 저희 클랜은 친목 위주의 클랜입니다.</p>
+                <input id="memConditionButton" type="button" value="가입조건 보기" onclick="showIdDiv('memCondition')">
+                <div id='memCondition'>
+                    남자: 딜량 200↑
+                </div>
+            </div>
+
+            <div class="clan_members" style="visibility: visible;">
+                <script>showClanMembers();</script>
+            </div>
+
+            <div class="apply">
+                <img id="img_apply" src="img/arpApply.jpg">
+                <input id="apply_button" type="button" value = "가입신청하러 가기" onclick="">
+            </div>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript" src='members.js'></script>
+
+<footer>
+    <p>홈페이지 관리자: 훈훈#4396</p>
+    <p>클랜 관리자: ARP_KANA#3371</p>
+</footer>
+
+
+</html>
